@@ -1,0 +1,3 @@
+git reset --soft [SHA 1]: elimina los commit en el tiempo pero nos mantiene los cambien
+git reset --mixed [SHA 1]: elimina los commit en el tiempo y tambien los cambios (queda ene l limbo)
+git reset --hard [SHA 1]: elimina completamente todo
