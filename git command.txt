@@ -1,0 +1,24 @@
+--crear ramas
+git branch responsive
+--cambiar nombre
+ git branch -m responsive responsable
+--ver lista de ramas
+ git branch -l
+--moverse entre ramas 
+git checkout responsable
+
+git checkout [nombre/sha1]: Nos permite mover entre ramas y entre commits, no vamos a borrar nada. Acá es donde podemos movernos en el tiempo.
+
+git checkout -b [nombre_rama]: Nos permite crear una nueva rama sin necesidad de usar branch
+
+--para modificar la historia es peligroso, deja solo una linea de hostoria
+git rebase
+
+git stash: es otro de los limbos, como el staging area. Para agregar los cambios estos deben estar en el staging area.
+git stash list: nos muestra la lista de stash que tengamos.
+git stash drop stash@{numero}: nos permite borrar un stash.
+git stash apply: aplicamos el último cambio
+
+problema: se esta trabajando en una rama y se desarrolla la solucion de la rama master pero en la rama vieja tenemos muchos commit lo que se hace es que se copio el SHA de ese commit, creamos una rama del master y alli usamos cherry-pick + el SHA y solucionado
+
+
