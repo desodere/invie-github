@@ -1,3 +1,4 @@
-# invie-github
-las mejores pinturas 
-@GG.izi
+# invie
+Las guitarras más locas
+
+http://leonidasesteban.github.io/invie-responsive/
